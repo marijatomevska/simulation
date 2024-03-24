@@ -53,8 +53,7 @@ body, html {
 
 
 .button {
-    top: 500px;
-    font-family: Comic_Neu;
+    top: 1000px;
     margin-top: 20px;
     display: inline-block; /* Allows the buttons to sit side by side */
     background-color: black; /* Example button color */
@@ -62,7 +61,6 @@ body, html {
     padding: 10px 20px; /* Button padding */
     text-align: center; /* Center the text inside the button */
     text-decoration: none; /* Remove underline from links */
-    font-size: 30px; /* Set font size */
     border: none; 
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Change mouse cursor to pointer */
@@ -100,6 +98,37 @@ body, html {
     z-index: -1;
 }
 
+.text-box {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 15px; /* Adjust as needed */
+    width: calc(100% - 1200px); /* Adjust width as needed, minus the total left and right margin */
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Example border color */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+}
+
+/* Positioning for first text box */
+#textbox1 {
+    position: absolute;
+    top: 200px; /* Adjust to the correct position */
+    left: 50px; /* Adjust to the correct position */
+}
+
+/* Positioning for second text box */
+#textbox2 {
+    position: absolute;
+    top: 350px; /* Adjust to the correct position */
+    right: 50px; /* Adjust to the correct position */
+}
+
 
 /* Intro Section */
 .section_intro {
@@ -128,42 +157,52 @@ body, html {
 }
 
 #scenario6 {
-    background-image: url('../images/village_images/desolate.png');
+    background-image: url('../images/village_images/crop_fail.png');
 }
 
 #scenario7 {
-    background-image: url('../images/village_images/nomadic.png');
-}
-
-#scenario8 {
-    background-image: url('../images/village_images/growth.png');
-}
-
-#scenario9 {
-    background-image: url('../images/village_images/advancement.png');
-}
-
-#scenario10 {
-    background-image: url('../images/village_images/decision.png');
-}
-
-#scenario11 {
-    background-image: url('../images/village_images/preparation.png');
-}
-
-#scenario12 {
-    background-image: url('../images/village_images/quarantine.png');
-}
-
-#scenario13 {
-    background-image: url('../images/village_images/military_state.png');
-}
-
-#scenario14 {
     background-image: url('../images/village_images/pest_invasion.png');
 }
 
+#scenario8 {
+    background-image: url('../images/village_images/takeover.png');
+}
 
+#scenario9 {
+    background-image: url('../images/village_images/expansion.png');
+}
+
+#scenario10 {
+    background-image: url('../images/village_images/oppression.png');
+}
+
+#scenario11 {
+    background-image: url('../images/village_images/shelter.png');
+}
+
+#scenario12 {
+    background-image: url('../images/village_images/military_state.png');
+}
+
+#scenario13 {
+    background-image: url('../images/village_images/nomadic.png');
+}
+
+#scenario14 {
+    background-image: url('../images/village_images/desolate.png');
+}
+
+#scenario15 {
+    background-image: url('../images/village_images/ai_gov.png');
+}
+
+#scenario16 {
+    background-image: url('../images/village_images/anarchy.png');
+}
+
+#scenario17 {
+    background-image: url('../images/village_images/tech_adv.png');
+}
 /* Typography */
 h1, h2 {
     font-family: Comic_Neu_Bold;
