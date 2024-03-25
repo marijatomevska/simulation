@@ -181,7 +181,7 @@ body, html {
 }
 
 #scenario12 {
-    background-image: url('../images/village_images/military_state.png');
+    background-image: url('../images/village_images/wolves.png');
 }
 
 #scenario13 {
@@ -202,6 +202,18 @@ body, html {
 
 #scenario17 {
     background-image: url('../images/village_images/tech_adv.png');
+}
+
+#scenario18 {
+    background-image: url('../images/village_images/military_state.png');
+}
+
+#scenario19 {
+    background-image: url('../images/village_images/alliance.png');
+}
+
+#scenario20 {
+    background-image: url('../images/village_images/invest.png');
 }
 /* Typography */
 h1, h2 {
